@@ -1,0 +1,22 @@
+Meltdown & Spectre
+
+1. Spectre variant1
+boundary check
+
+2. Spectre variant2
+branch target injection
+happen at os kernel, 
+Mitigation: Retpoline & IBRS, IBPB
+Indirect Branch Restricted Speculation
+Indirect Branch Prediction Barriers
+
+3. Meltdown variant3
+rogue data cache load
+Mitigation: at linux kernel (KPTI)
+Kernel Page Table Isolation
+
+KAISER user space can not know where is the kernel space
+
+Exploring Branch Predictors for Constructing Transient Execution Trojans
+Contribution:
+    
